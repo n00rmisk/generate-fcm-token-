@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import TokenTestPage from "./token-test/page";
 
 export default function Home() {
