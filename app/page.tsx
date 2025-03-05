@@ -1,5 +1,7 @@
-// import Image from "next/image";
 import TokenTestPage from "./token-test/page";
+// import dynamic from 'next/dynamic';
+
+// const FCMMessaging = dynamic(() => import('../app'), { ssr: false });
 
 export default function Home() {
   return (
