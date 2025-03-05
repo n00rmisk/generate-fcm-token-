@@ -79,6 +79,8 @@ export default function TokenTestPage() {
   useEffect(() => {
     async function initFirebaseMessaging() {
       // Dynamically import Firebase and assert its type as any to bypass type errors
+            // Dynamically import Firebase and disable the "no-explicit-any" rule for this line
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const firebase = (await import('firebase/compat/app')).default as any;
       await import('firebase/compat/messaging');
 
